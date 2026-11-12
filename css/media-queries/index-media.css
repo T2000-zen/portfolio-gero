@@ -1,0 +1,147 @@
+/*----------------------------------------ANIMATIONS-----------------------------------------*/
+
+
+/*-------------------------------------------HEADER------------------------------------------*/
+#page-name{
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;  
+}
+
+#peak{
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+/*--------------------------------------------BODY-------------------------------------------*/
+
+.line{
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+
+/*--------------------------------------------------------------------------------------------
+------------------------------------------MEDIA START-----------------------------------------
+--------------------------------------------------------------------------------------------*/
+
+/*-----------------SMALL-----------------*/
+@media screen and (max-width: 600px) and (min-width: 200px){
+
+/*Title*/
+.title{
+    font-size: 3.5em; 
+}
+
+/*title-video*/
+  #title-video-desktop{
+    display: block;
+   }
+
+/*Footer*/
+ 
+}
+
+
+/*-------------------------------------------MEDIUM------------------------------------------*/
+
+@media screen and (max-width: 850px) and (min-width: 600px){
+
+    /*-------------------------------------------HEADER------------------------------------------*/
+    
+
+/*Desktop Nav*/
+
+nav{
+    display: block;
+}
+
+.drop-menu{
+    display: none;
+}
+
+/*title-video*/
+  #title-video-desktop{
+    display: block;
+   }
+
+}
+
+
+/*-------------------------------------------LARGER------------------------------------------*/
+
+@media screen and (max-width: 1200px) and (min-width: 850px){
+
+    /*-------------------------------------------HEADER------------------------------------------*/
+
+    #peak{
+        padding-top: 25%;
+        padding-bottom: 35%;
+    }
+
+    /*--Title Video--*/
+   
+
+
+    /*Desktop Nav*/
+
+    nav{
+        display: block;
+    }
+    
+    .drop-menu{
+        display: none;
+    }
+
+    #title-video-desktop{
+        display: block;
+    }
+
+
+     /*-------------------------------------------FOOTER------------------------------------------*/
+
+    
+    }
+
+
+
+
+
+
+   /*-------------------------------------------LARGEST------------------------------------------*/ 
+    @media screen and (max-width: 3000px) and (min-width: 1200px){
+
+        /*-------------------------------------------HEADER------------------------------------------*/
+    
+        #peak{
+            padding-top: 15%;
+            padding-bottom: 35%;
+        }
+        
+        /*Desktop Nav*/
+    
+        nav{
+            display: block;
+        }
+        
+        .drop-menu{
+            display: none;
+        }
+
+        #title-video-desktop{
+            display: block;
+        }
+    
+         /*--------------------------------------------BODY-------------------------------------------*/
+
+        
+
+         
+        .line{
+           margin: 5%;
+           width: 20%;
+         }
+    
+         /*-------------------------------------------FOOTER------------------------------------------*/
+    
+   
+       }

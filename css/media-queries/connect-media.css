@@ -1,0 +1,270 @@
+/*----------------------------------------ANIMATIONS-----------------------------------------*/
+
+
+
+/*-------------------------------------------HEADER------------------------------------------*/
+#page-name{
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;  
+}
+
+/*--------------------------------------------BODY-------------------------------------------*/
+
+  #call-to-action{
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;  
+}
+
+/*Service Options*/
+.service-name{
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+.serive-description{
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------
+------------------------------------------MEDIA START-----------------------------------------
+--------------------------------------------------------------------------------------------*/
+
+/*-----------------SMALL-----------------*/
+@media screen and (max-width: 600px) and (min-width: 200px){
+
+/*Page Name*/
+#page-name{
+    font-size: 70px;
+    font-weight: 800;
+
+    top: 13%;
+    left: 1%;
+
+    letter-spacing: 3.5px;
+}
+
+
+
+/*Banner Image*/
+#marble-video{
+    
+    width: 100%;
+    height: 25vh;
+    object-fit:cover;
+}    
+
+/*Scollbar*/
+::-webkit-scrollbar{
+    display: none;
+}    
+
+/*Footer*/
+    #footer-info{
+      font-size: 15px;
+      padding-top: 3%;
+    }
+
+    .email{
+        font-size: 15px;
+        letter-spacing: 3px;
+    }
+
+}
+
+
+
+
+
+/*-------------------------------------------MEDIUM------------------------------------------*/
+
+@media screen and (max-width: 850px) and (min-width: 600px){
+
+    /*-------------------------------------------HEADER------------------------------------------*/
+    
+ #page-name{
+    font-size: 600%;
+}
+
+/*Desktop Nav*/
+
+nav{
+    display: block;
+}
+
+.drop-menu{
+    display: none;
+}
+
+#link-up{
+    margin-bottom: 7.5%;
+}
+
+.email-description{
+    margin-bottom: 7.5%;
+}
+
+/*--FORM FIELD--*/
+
+.labels{
+    gap: 5.5px;
+}
+
+.labels input{
+    font-size: 1em;
+
+    padding: 2%;
+}
+
+/*Footer*/
+#footer-info{
+ padding-top: 1%;
+}
+ 
+}
+
+
+
+/*-------------------------------------------LARGER------------------------------------------*/
+
+@media screen and (max-width: 1200px) and (min-width: 850px){
+
+    /*-------------------------------------------HEADER------------------------------------------*/
+
+    #page-name{
+        font-size: 875%;
+        -webkit-text-stroke: 1.5px #E7EBF6;
+    }
+
+    /*Desktop Nav*/
+
+    nav{
+        display: block;
+    }
+    
+    .drop-menu{
+        display: none;
+    }
+
+     /*--------------------------------------------BODY-------------------------------------------*/
+
+     /*--FORM FIELD--*/
+
+     .labels{
+        gap: 5.5px;
+     }
+
+
+     #link-up{
+        margin-bottom: 5%;
+    }
+    
+    .email-description{
+        margin-bottom: 5%;
+    }
+
+    .links-content{
+        margin-bottom: 5%;
+    }
+
+    .labels input{
+        font-size: 1em;
+    
+        padding: 1.5%;
+    }
+   
+     /*-------------------------------------------FOOTER------------------------------------------*/
+
+     #footer-info{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+
+         padding-top: 1%;
+    }
+    
+    }
+
+
+
+
+
+
+   /*-------------------------------------------LARGEST------------------------------------------*/ 
+    @media screen and (max-width: 3000px) and (min-width: 1200px){
+
+        /*-------------------------------------------HEADER------------------------------------------*/
+    
+        #page-name{
+            font-size: 12.5em;
+            -webkit-text-stroke: 1.5px #E7EBF6;
+        }
+        
+        /*Desktop Nav*/
+    
+        nav{
+            display: block;
+        }
+        
+        .drop-menu{
+            display: none;
+        }
+
+    
+         /*--------------------------------------------BODY-------------------------------------------*/
+
+         #link-up{
+            font-size: 4em;
+         }
+    
+    
+        .email-description{
+            margin-left: 15%;
+            margin-right: 15%; 
+            font-size: 2em;
+        }
+
+        
+        /*--FORM FIELD--*/
+
+     .labels{
+        gap: 5.5px;
+     }
+
+
+     #link-up{
+        margin-bottom: 5%;
+    }
+    
+    .email-description{
+        margin-bottom: 5%;
+    }
+
+    .links-content{
+        margin-bottom: 5%;
+    }
+
+    .labels input{
+        font-size: 1em;
+    
+        padding: 1.5%;
+    }
+
+    .labels textarea{
+        margin-bottom: 5%;
+
+        padding: 7.5px 10px 150px 15px;
+    }
+    
+    /*-------------------------------------------FOOTER------------------------------------------*/
+
+         #footer-info{
+         padding-top: 0.5%;
+    }
+    
+       }
